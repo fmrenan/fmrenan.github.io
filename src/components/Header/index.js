@@ -3,8 +3,8 @@ import styles from './styles.module.scss'
 export function Header(){
 
   return(
-    <header>
-      <h1>Header</h1>
+    <header className={styles.headerContainer}>
+      <h1>Developing...</h1>
     </header>
   )
 }
