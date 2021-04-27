@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/vercel.svg" type="image/svg"/>
       </Head>
 
       <main className={styles.main}>
