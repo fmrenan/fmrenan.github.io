@@ -1,5 +1,6 @@
 :root {
-  --white: #FFF;
+  --bg-dark: #191622;
+  --white: #E1E1E6;
 
   --gray-50: #F7F8FA;
   --gray-100: #E6E8EB;
@@ -7,13 +8,14 @@
   --gray-500: #808080;
   --gray-800: #494D4B;
 
+  --green-300: #67E480;
   --green-500: #04D361;
   
   --purple-300: #9F75FF;
   --purple-400: #9164FA; 
   --purple-500: #8257E5;
   --purple-800: #6F48C9;
-  $preto: #333;
+  font-size: 62.5%;
 }
 
 *{
@@ -23,5 +25,6 @@
 }
 
 body{
-  font-size: 62.5%;
+  font-family: Lato;
+  background-color: var(--bg-dark);
 }
