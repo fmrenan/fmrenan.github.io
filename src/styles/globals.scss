@@ -8,6 +8,10 @@
   --gray-500: #808080;
   --gray-800: #494D4B;
 
+  --gray-blue-50: #44475a;
+  --gray-blue-100:#41414D;
+  --gray-blue-200:#483C67;  
+
   --green-300: #67E480;
   --green-500: #04D361;
   
@@ -25,6 +29,6 @@
 }
 
 body{
-  font-family: Lato;
+  font-family: Lato, sans-serif;
   background-color: var(--bg-dark);
 }

@@ -1,0 +1,39 @@
+.main{
+  color: var(--white);
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    
+    background-color: var(--gray-blue-50);
+    
+    border-radius: 0.5rem;
+  }
+
+  ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 3rem 0 3rem;
+    
+    li{
+      font-size: 1.8rem;
+      font-weight: 300;
+      text-transform: capitalize;
+      
+      a{
+        color: var(--white);
+        text-decoration: none;
+        padding-bottom: 0.2rem;        
+
+        &.active{
+          border-bottom: 0.2rem solid var(--green-300);
+        }
+      }      
+    }    
+  }
+}
